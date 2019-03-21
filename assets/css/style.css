@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('http://weloveiconfonts.com/api/?family=fontawesome');
+@import url('http://weloveiconfonts.com/api/?family=fontawesome');
+
+
+body, div,
+ h1, h2, h3, h4, h5, h6,
+ p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+ fieldset, form, label, legend, th, td,
+ article, aside, figure, footer, header, hgroup, menu, nav, section,
+ summary, hgroup {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .container-fluid{
+     position: relative;
+ }
+
+ .container{
+     position: relative;
+ }
+
+h1{
+    color: #04337b;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ 
+ img {
+    max-width:100%;
+    height:auto;
+ }
+ 
+ .container {
+   max-width: 80%;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+
+ .slider {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 120px auto 30px auto;
+}
+
+.slider img {
+    max-width: 100%;
+    width: 100%;
+}
+  
+  .slide-viewer {
+      position: relative;
+      overflow: hidden;
+      height: 630px;
+    }
+
+    @media (max-width: 768px) {
+      .slide-viewer {
+        position: relative;
+        overflow: hidden;
+        height: 130px;
+      }
+  }
+
+  .slide-group {
+      width: 100%;
+      position: absolute;
+    }
+  
+  .slide {
+      width: 100%;
+      height: 100%;
+      display: none;
+      position: absolute;
+    }
+  
+  .slide:first-child {
+      display: block;}
+  
+  
+  /********** BUTTONS **********/
+  .slide-buttons {
+    text-align: center;
+}
+
+  
+  .slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;
+}
+
+.img-fluid{
+    min-width: 100%;
+}
+
+.empresasLogo{
+        position: relative;
+        height: 250px;
+        background-color: #f4f5fa;
+        margin: 0 0 30px 0;
+    }
+
+.empresasLogo h2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #67bfe7;
+}
+
+.empresasLogo div{
+    position: relative;
+    text-align: center;
+    top: 50px;
+
+}
+
+.solucoes{
+    display: block;
+}
+
+.solucoes button{
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #67bfe7;
+    border-radius: 3px;
+}
+
+.solucoes p{
+    text-align: center;
+}
+
+.buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.post{
+    height: 250px;
+    background-color: #f4f5fa;
+}
+.direitoReserv{
+    background-color: #f4f5fa;
+}
+
+.direitoReserv p{
+    font-size: 15px;
+    text-align: center;
+    color: #666666;
+    padding: 30px;
+}
+
+footer{
+  margin-top: 100px;
+  /* border-top: 1px solid rgba(110, 110, 110, 0.486); */
+
+}
+
+.rodape{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.rodape > div {
+  padding: 1em;
+}
+
+.rodape li {
+  list-style: none;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.paginas h2{
+  text-align: left;
+  color: #04337b;
+}
+
+.paginas a{
+  text-decoration: none;
+  color: #666666;
+}
+
+.newsletter input{
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #04337b;
+}
+
+.newsletter h2{
+  text-align: left;
+  color: #04337b;
+}
+
+.newsletter button{
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  background-color: #04337b;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+}
+
+.social h2{
+  text-align: left;
+  color: #04337b;
+}
+
+.icones{
+  text-align: center;
+}
+
+.icones i{
+  padding: 10px;
+}
+
+.solucoes{
+  background-color: #f1f1f1;
+}
+
+.titleSolucao h1{
+  padding: 30px;
+}
+
+.sobre{
+  position: relative;
+  margin: 200px auto 50px auto;
+  text-align: justify;
+}
+
+.servicos{
+    position: relative;
+    width: 100%;
+    margin: 200px auto 50px auto;
+  }
+  
+
+/* FORMULARIO =================================== */
+
+.form{
+    margin-top: 140px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contatoInfo{
+    position: relative;
+    display: flex;
+    width: 40%;
+    padding: 10px;
+    background-color: #4091EC;
+    flex-direction: column;
+}
+
+.infoTitle,
+.infoItens{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.infoTitle{
+    margin-bottom: 60px;
+}
+.infoTitle span{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.infoTitle h2{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.infoItens p{
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.infoItens p:nth-child(1) span{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.infoItens p:nth-child(2) span{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.infoItens p:nth-child(3) span{
+  font-size: 30px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+
+form.formContato{
+    width: 60%;
+    padding: 30px 40px;
+}
+
+form.formContato h2{
+	font-size: 25px;
+	font-weight: 600;
+	color: #303030;
+	margin-bottom: 30px;
+}
+
+form.formContato .userInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+form.formContato label{
+    font-weight: bold;
+}
+
+form.formContato input,
+form.formContato textarea,
+form.formContato select{
+    width: 100%;
+    padding: 8px 0px 5px;
+
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+
+	color: #5A5A5A;
+	font-size: 14px;
+	font-weight: bold;
+} 
+
+form.formContato textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+}
+
+form.formContato input[type="button"]{
+    width: 100%;
+	background: #4091EC;
+	padding: 10px;
+	border: none;
+    margin-top: 10px;
+
+    color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+form.formContato input[type="button"]:hover{
+    background: #3371B6;
+}
+
+@media screen and (min-width: 900px) {
+    form.formContato h2{
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (max-width: 899px) {
+    .container{
+      margin-top: 140px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    .form{
+        display: flex;
+        margin: 0;
+    }
+    .contatoInfo{
+        display: none;
+    }
+    .form{
+        width: 100%;
+    }
+    form.formContato h2{
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+    }
+    form.formContato input,
+    form.formContato textarea,
+    form.formContato select{
+    width: 100%;
+    padding: 8px 0px 5px;
+
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+
+	color: #5A5A5A;
+	font-size: 14px;
+	font-weight: bold;
+    } 
+    
+    form.formContato{
+    width: 100%;
+    padding: 30px 40px;
+}
+}
+
+/* Ventana de errores*/
+.modal_wrap{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensagem_modal{
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+
+.mensagem_modal h3{
+    text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.mensagem_modal h3:after{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #C5C5C5;
+	margin: 10px 0px 15px;
+}
+
+.mensagem_modal p{
+    font-size: 16px;
+    color: #606060;
+}
+
+.mensagem_modal p:before{
+    content: "\f00d";
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #E25151;
+    margin-right: 8px;
+}
+
+#btnClose{
+    display: inline-block;
+	padding: 3px 10px;
+	margin-top: 10px;
+
+	background: #E25151;
+	color: #fff;
+	border: 2px solid #B14141;
+	cursor: pointer;
+}

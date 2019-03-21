@@ -1,0 +1,85 @@
+[class*="col-"] {
+  margin-bottom: 20px;
+  min-height: 30px;
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+}
+@media all and (max-width: 500px){
+	.no-mobile {display: none;}
+}
+
+@media all and (min-width: 500px) {
+  .wrapper {
+    padding: 0 20px;
+	 background-color: #e1e1e1;
+	 padding-top: 20px;
+	 border-radius: 5px;
+  }
+
+  .row {display: flex;}
+
+  [class*="col-"] {margin-right: 20px;}
+
+  [class*="col-"]:last-child {margin-right: 0;}
+
+  .col-1 {flex: 1;}
+  .col-2 {flex: 2;}
+  .col-3 {flex: 3;}
+  .col-4 {flex: 4;}
+  .col-5 {flex: 5;}
+  .col-6 {flex: 6;}
+  .col-7 {flex: 7;}
+  .col-8 {flex: 8;}
+  .col-9 {flex: 9;}
+  .col-10 {flex: 10;}
+  .col-11 {flex: 11;}
+  .col-12 {flex: 12;}
+}
+@media all and (min-width: 1000px) {
+  .wrapper {max-width: 1000px;}
+}
+
+
+/* Just so you can get an impression of what it looks like when the height changes without spamming the code with useless text. */
+.blank-col {
+	min-height: 150px;
+	max-height: 150px;
+}
+
+.sticky {
+  font: 600 20px/1 'Open Sans', sans-serif;
+  top: 0;
+  position:fixed;
+  width: 100%;
+  max-height: 150px;
+}
+
+.no-back {
+	 background-color: #f1f1f1; /* make sure to change this to the background color */
+  }
+
+.warn {background: #FFDB4D;}
+.note {
+	background: #5CADFF;
+	color: #fff;
+}
+.error {
+	background: #FF5353;
+	color: #fff;
+}
+.correct {
+	background: #33D685;
+	color: #fff;
+}
+.rounded {border-radius: 100px;}
+
+.top-r {border-top-right-radius: 100px;}
+.top-l {border-top-left-radius: 100px;}
+.bottom-r {border-bottom-right-radius: 100px;}
+.bottom-l {border-bottom-left-radius: 100px;}
+
+.rad-l {border-radius: 100px 0 0 100px;}
+.rad-r {border-radius: 0 100px 100px 0;}
+
+.hidden-col {visibility: hidden;}

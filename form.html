@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <section>
+        <div class="form">
+            <div class="contatoInfo">
+                <div class="infoTitle">
+                    <span class="fa fa-user-circle"></span>
+                    <h2>Informação<br>de contato</h2>
+                </div>
+                <div class="infoItens">
+                    <p><span class="fa fa-envelope"></span>contato@mmpericias.con.br</p>
+                    <p><span class="fa fa-mobile"></span>+55 (11) 98706-9612</p>
+                </div>
+            </div>
+            <form action="" class="formContato">
+                <h2>Entre em contato</h2>
+                <div class="userInfo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Ex: João da Silva">
+                    <label class="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Ex: joao@gmail.com">
+                    <label for="assunto">Assunto:</label>
+                    <select name="assunto" id="assunto">
+                        <option value="">Selecione</option>
+                        <option value="orcamento">Orçamento</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Ex: Gostaria de um orçamento..."></textarea>
+                    <input type="button" value="Enviar Mensagem" id="btnEnviar">
+                    </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

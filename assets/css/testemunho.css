@@ -1,0 +1,78 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/* ---------------------- */
+/*       TESTIMONIAL      */
+/* ---------------------- */
+.parallax-section{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.ts-testimonial-slide{
+	text-align: center;
+	color: #04337b;
+	width: 85%;
+	margin: 0 auto;
+}
+.ts-testimonial-slide p{
+	font-size: 15px;
+	line-height: 36px;
+	font-style: italic;
+	margin-bottom: 35px;
+}
+.ts-testimonial-slide .ts-testimonial-item {
+  margin-bottom: 15px;
+}
+.ts-testimonial-slide .ts-testimonial-item .icon-client{
+	background: #04337b;
+	width: 29px;
+	height: 29px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	margin-top: 2px;
+}
+.ts-testimonial-slide .ts-testimonial-item .infor-client {
+  display: inline-block;
+  margin: 0 auto;
+  width: auto;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-name{
+	padding-left: 38px;
+	font-size: 12.8px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	display: block;
+	line-height: normal;
+	white-space: nowrap;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-position{
+	font-size: 12px;
+	font-style: italic;
+	line-height: normal;
+	padding-left: 38px;
+	display: block;
+	text-align: left;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-position a{
+	text-decoration: none;
+	color: #04337b;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-position a:hover{
+	color: #67bfe7;
+}

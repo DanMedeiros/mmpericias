@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Medeiros Mota | Cálculos e Perícias Confiáveis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/navbar.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/testemunho.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css'>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126118214-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126118214-1');
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar__wrapper">
+                <nav class="navbar__menu"><a class="navbar__brand" href="index.html"><img src="assets/img/logo.png" alt="Medeiros Mota Perícias" /></a>
+                    <div id="nav-icon3"><span></span><span></span><span></span><span></span></div>
+                    <ul class="navbar__nav">
+                        <li class="navbar__link after-transform"><a href="index.html">Inicio</a></li>
+                        <li class="navbar__link after-transform"><a href="sobre.html">Sobre</a></li>
+                        <li class="navbar__link after-transform"><a href="servicos.html">Serviços</a></li>
+                        <li class="navbar__link after-transform"><a class="active" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="navbar-responsive">
+            <ul class="navbar-responsive__nav">
+                <li class="navbar-responsive__link after-transform"><a href="index.html">Inicio</a></li>
+                <li class="navbar-responsive__link after-transform"><a href="sobre.html">Sobre</a></li>
+                <li class="navbar-responsive__link after-transform"><a href="servicos.html">Serviços</a></li>
+                <li class="navbar-responsive__link after-transform"><a class="active" href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="form">
+                <div class="contatoInfo">
+                    <div class="infoTitle">
+                        <span class="fa fa-user-circle"></span>
+                        <h2>Informação<br>de contato</h2>
+                    </div>
+                    <div class="infoItens">
+                        <p><span class="fa fa-envelope"></span>claudia@mmpericias.con.br</p>
+                        <p><span class="fa fa-phone"></span>+55 (11) 0000-0000</p>
+                        <p><span class="fa fa-mobile"></span>+55 (11) 98706-9612</p>
+                    </div>
+                </div>
+                <form id="form" name="form" class="formContato" method="POST" onsubmit="validaForm(); return false;">
+                    <h2>Entre em contato</h2>
+                    <div class="userInfo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Ex: João da Silva">
+                        <label class="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Ex: joao@gmail.com">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" nome="telefone" id="telefone" placeholder="Ex: (00) 0000-0000">
+                        <label for="assunto">Assunto:</label>
+                        <select name="assunto" id="assunto">
+                            <option value="">Selecione</option>
+                            <option value="orcamento">Orçamento</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Ex: Gostaria de um orçamento..."></textarea>
+                        <input type="submit" id="btnEnviar" value="Enviar Mensagem">
+                    </div>
+                </form>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="rodape">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="paginas">
+                            <h2>Páginas</h2>
+                            <ul>
+                                <li><a href="sobre.html">Sobre</a></li>
+                                <li><a href="empresa.html">Abertura de Empresa</a></li>
+                                <li><a href="servicos.html">Serviços</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                                <li><a href="orcamento.html">Orçamento</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="newsletter">
+                            <h2>Newsletter</h2>
+                            <form action="newsletter">
+                                <input type="email" name="email" id="email"><br>
+                                <button>Cadastrar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-4 icones">
+                        <div class="social">
+                            <h2>Social</h2>
+                            <a href="https://www.facebook.com/medeirosmota.pericias.9" target="_blank"><i class="fab fa-facebook-square fa-4x"></i></a>
+                            <a href="https://twitter.com/MPericias?s=08" target="_blank"><i class="fab fa-twitter-square fa-4x"></i></a>
+                            <a href="https://www.instagram.com/medeirosmotapericias/" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
+                            <a href="https://www.linkedin.com/company/medeiros-mota-calculos-e-percias" target="_blank"><i
+                                    class="fab fa-linkedin fa-4x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="direitoReserv">
+                <p>Medeiros Mota - CNPJ: 00.000.000/0000-00 © Todos os direitos reservados. 2018</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js'></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/validarForm.js"></script>
+    <script>
+        var nav = responsiveNav(".nav-collapse");
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K4TQX24');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4TQX24" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+</body>
+
+</html>
